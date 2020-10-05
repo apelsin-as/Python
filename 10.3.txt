@@ -1,0 +1,6 @@
+a=[1,4,6,7]
+for i in range(len(a)//2):
+        t=a[i]
+        a[i]=a[len(a)//2+i]
+        a[len(a)//2+i]=t
+print(a)

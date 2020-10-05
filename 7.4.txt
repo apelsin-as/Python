@@ -1,0 +1,12 @@
+import random
+def tr():
+    
+    n=random.randint(-10, 10)
+    a=int(input('введите число'))
+    while n>-10 and n<10:
+        if a==n:
+            print('Победá')
+        else:
+            print('Попробуй еще раз')
+            break
+    return tr

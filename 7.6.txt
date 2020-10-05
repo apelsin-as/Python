@@ -1,0 +1,13 @@
+import math
+
+def xzc():
+    x=int(input())
+    y=int(input())
+    a=math.sin(x)
+    s=math.fabs(y)
+
+
+    z=(x+(2+y)/x**2)/(y+1/math.sqrt(x**2+10))
+    q=2.8*a+s
+    print(z,q)
+    

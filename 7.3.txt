@@ -1,0 +1,4 @@
+import math
+ 
+def Fun(x):
+    return math.sqrt(1 - math.sin(x) * math.sin(x))

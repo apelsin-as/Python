@@ -1,0 +1,9 @@
+a=int(input())
+s==int(input())
+ma=0
+if a>s:
+    ma=a
+else:
+    ma=s
+print(ma)
+    

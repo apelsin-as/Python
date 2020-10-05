@@ -1,0 +1,15 @@
+import random
+n=random.randint(-10, 10)
+while True:
+    text = input("Введите число или стоп для выхода: ")
+    if text == "стоп":
+        print("Выход из программы! До встречи! Загадано было", n)
+        break 
+    elif text == n:
+        print("Победа")
+    else:
+        if text > n:
+            print("Попробуйте еще, ваше число больше загаданного")
+        elif text < n:
+            print("Попробуйте еще,ваше число меньше загаданного")
+

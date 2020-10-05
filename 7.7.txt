@@ -1,0 +1,9 @@
+import math
+
+def f():
+    x=float(input())
+    if x>=0.2 and x<=0.9:
+        print(math.sin(x))
+    else:
+        print(1)
+

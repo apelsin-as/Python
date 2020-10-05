@@ -1,0 +1,11 @@
+def spi2():
+    L=[3,'hello',7,4,'привет',4,3,-1]
+    
+    if L.index('привет')==True:
+        print (L.pop('привет'))
+    else:
+        print(L.append(str(input())))
+               
+    if L.count('4')>1:
+        print(L.clear())
+        

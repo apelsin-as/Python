@@ -1,0 +1,4 @@
+import doctest
+ 
+def asd(x):
+    return doctest. x**4+4**x

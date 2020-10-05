@@ -1,0 +1,8 @@
+s=str(input())
+t=0
+for i in range(len(s)):
+    if s[i].isalpha(): 
+        continue 
+    t=t+str(s[i]) 
+for max(len(s)):
+    print s.index()

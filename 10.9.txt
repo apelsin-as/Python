@@ -1,0 +1,11 @@
+import re
+ 
+t = input()
+ 
+ls = list(map(int, re.findall(r'\d+', t)))
+for i in ls:
+    print(i)
+print()
+print(len(ls))
+print(sum(ls))
+print(max(ls))

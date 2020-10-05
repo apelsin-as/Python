@@ -1,0 +1,12 @@
+def oo():
+    N=int(input('Введите число'))
+    S=0
+    wnile N >0:
+        a=N%10
+        if a%2!=0:
+            S=S+a**2
+        N=N//10
+
+        print(S)
+        
+    
